@@ -1,72 +1,41 @@
-source "https://rubygems.org"
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+# Odin Project Form
 
-ruby "2.7.0"
+## Built With
 
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.4", ">= 7.0.4.2"
+- Ruby,Rails, Form_helper;
+- Visual Studio, Git, & GitHub;
 
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
+## Getting Started
 
-# Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+To run this project, you only need a computer with a browser (like Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari, etc.) installed, and follow these steps:
 
-# Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+1. In your terminal, in the folder of your preference, type the following bash command to clone this repository:
 
-# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+```sh
+git@github.com:fortuneonyeka/odin-form.git
+```
 
-# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+2. Now that you have already cloned the repo run the following commands to get the project up and running:
+```sh
+cd odin-re-former
+bundle install
+rails s
+```
 
-# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem "stimulus-rails"
+1. Next, you can go ahead and start performing CRUD operations (Creating,Viewing, editing and deleting.) users. All the changes will be automatically updated on your local server on http://localhost:3000/. You can stop your local server at any time hitting `<Ctrl> + C` on your keyboard.
 
-# Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem "jbuilder"
+## Author
 
-# Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+👤 **Ihedoro Fortunatus O**
 
-# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
-# gem "kredis"
+- GitHub: [@fortuneonyeka](https://github.com/fortuneonyeka)
+- Twitter: [@onyekafortune](https://twitter.com/onyekafortune)
+- LinkedIn: [Ihedoro Fortunatus](https://www.linkedin.com/in/fortunatus-ihedoro/)
 
-# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
-# gem "bcrypt", "~> 3.1.7"
+## 🤝 Contributing
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+Contributions, issues, and feature requests are welcome!
 
-# Reduces boot times through caching; required in config/boot.rb
-gem "bootsnap", require: false
+## Show your support
 
-# Use Sass to process CSS
-# gem "sassc-rails"
-
-# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
-# gem "image_processing", "~> 1.2"
-
-group :development, :test do
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri mingw x64_mingw ]
-end
-
-group :development do
-  # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
-
-  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
-
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
-end
-
-group :test do
-  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
-  gem "selenium-webdriver"
-  gem "webdrivers"
-end
+Give a ⭐️ if you like this project!
