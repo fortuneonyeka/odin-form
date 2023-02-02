@@ -1,0 +1,15 @@
+<div class="form">
+
+<%= form_with model: @user do |f|  %>
+  <%= f.label :user_name, class: "label" %><br>
+  <%= f.text_field :username, class: "shortInput" %> <br /><br>
+
+  <%= f.label :email, "Email Address", class: "label" %><br>
+  <%= f.text_field :email, class: "shortInput" %> <br /><br>
+
+  <%= f.label :password, class: "label" %><br>
+  <%= f.password_field :password, class: "shortInput" %> <br />
+  <%= f.submit "Create account", class: "button createAccount" %>
+<% end %>
+<%= link_to "Cancel",  root_path() %></li>
+</div>
